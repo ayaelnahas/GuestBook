@@ -43,14 +43,15 @@ nav {
   text-align: center;
   margin-top: 150px;
   p {
-    font-size: 40px;
+    font-size: 35px;
     color: #362f2f;
+    font-weight: bold;
   }
 
   div {
     text-align: -webkit-center;
   }
-  button {
+  .register {
     width: 200px;
     display: block;
     align-items: center;
@@ -60,21 +61,21 @@ nav {
     border: none;
     border-radius: 5px;
     margin-top: 20px;
-  }
-  .login {
-    background-color: #1877f2;
-  }
-  .register {
     background-color: #42b72a;
   }
+  .v-divider{
+    max-width: 35%;
+  }
 }
-.messageItem{
-  .theme--dark.v-card > .v-card__text{
+.messageItem {
+  .theme--dark.v-card > .v-card__text {
     color: white;
     font-family: sans-serif;
   }
 }
-.loginForm{
+.loginForm {
   height: 100%;
   width: 500px;
+  margin-bottom: 20px;
+  
 }

@@ -15,6 +15,7 @@
           <v-col cols="12">
             <v-text-field
               filled
+              :append-icon="show1 ? 'mdi-eye' : 'mdi-eye-off'"
               v-model="password"
               :rules="[rules.required, rules.min]"
               :type="show1 ? 'text' : 'password'"
