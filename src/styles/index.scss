@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-  background: rgb(128, 11, 37);
+  background: rgb(4, 4, 100);
   padding: 30px;
   display: flex;
   align-items: center;
@@ -59,12 +59,18 @@ nav {
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .login {
     background-color: #1877f2;
   }
   .register {
-    background-color: #ace0a2;
+    background-color: #42b72a;
+  }
+}
+.messageItem{
+  .theme--dark.v-card > .v-card__text{
+    color: white;
+    font-family: sans-serif;
   }
 }
