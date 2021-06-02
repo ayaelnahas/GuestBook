@@ -1,18 +1,29 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <p>Share A Random Thought With Us ..</p>
+    <!-- <v-spacer></v-spacer> -->
+    <div>
+      <button class="login" @click="login">Log In</button>
+      <button class="register" @click="register">Register</button>
+    </div>
+    <div></div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
   name: "Home",
-  components: {
-    HelloWorld,
+  methods: {
+    login() {
+      this.$router.push({
+        name: "login",
+      });
+    },
+    register() {
+      this.$router.push({
+        name: "register",
+      });
+    },
   },
 };
 </script>
